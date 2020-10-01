@@ -1,4 +1,4 @@
 # plc-communication
 
 ## plc
-Xg - 5000
+XG - 5000
