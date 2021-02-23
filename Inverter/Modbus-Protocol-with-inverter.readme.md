@@ -1,7 +1,34 @@
 ## PLC 와 인버터 간 모드버스 통신
 <br/>
 
+## 모드버스통신(Modbus Protocol) 이란?
+
+<br/>
+
+
+**MODBUS**통신은 **Searial통신**과 **Ethernet통신**을 이용한 통신프로토콜의 종류중에서 가장 범용적으로 많이 사용되는 **OPEN Protocol** 입니다.
+
+
+
+거의 모든 대부분의 **PLC**나 **DCS, HMI**등에서 지원하고 있으며, 중소업체의 경우 자체적인 통신프로토콜을 제작하려면 시간과 돈이 많이 드는 점,
+
+타 메이커와 호환이 힘든점등의 단점을 보완하기 위해 **MODBUS통신**만 사용하는 경우도 많이 있습니다.
+
+
+
+**MODBUS**는 크게 **Ehternet**을 이용한 **MODBUS-TCP**와 **Searial**을 이용한 **MODBUS-RTU, MODBUS-ASCII**를 예로 들 수 있습니다.
+
+
+**아스키 코드**를 이용하는 **MODBUS-ASCII**보다는 **BINARY**를 직접 이용하는 **MODBUS-RTU**를 많이 사용하는 편입니다.
+
+
+출처 : https://mech19.tistory.com/m/42
+
+<br/>
+<br/>
+
 ### 인버터 설정
+
 <br/>
 
 #####  **인버터** 에서 오른 화살표를 눌러 **CM** 으로 감.
